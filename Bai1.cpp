@@ -9,6 +9,6 @@ main()
     {
         cin >> a[i];
     }
-    sort(a, a + n);
+    sort(a, a + n +1);
     cout << a[n - k];
 }
